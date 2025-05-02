@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&display=swap');
+body{
+    background-color: #3E9268;
+    margin: 0%;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+header{
+    height: 134px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #588157;
+    padding: 5px 36px;
+}
+a,p,h1,h2,h3{
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+}
+h1,h2{
+    font-size: 48px;
+    margin-bottom: 0;
+}
+h1{
+    width: 485px;
+    height: 74px;
+    font-size: 48px;
+    background-color: rgba(255, 255, 255, 0.2);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+.search{
+    background-color: #3A5A40;
+    height: 40px;
+    width: 387px;
+    margin: 8.5px;
+    border-radius: 20px;
+    border: 0;
+    padding: 0px 20px;
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+}
+.glass{
+    position: absolute;
+    top: 55px;
+    right: 680px;
+    cursor: pointer;
+}
+.list_item{
+    background-color: #3A5A40;
+    width: 115px;
+    height: 40px;
+    margin: 0px 8.5px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list_item_text{
+color: #DAD7CD;
+text-decoration: none;
+}
+nav{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.btn{
+    background-color: #3A5A40;
+    color: #DAD7CD;
+    width: 266px;
+    height: 51px;
+    border: 0;
+    border-radius: 27px;
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+}
+.btn:hover{
+    color: #ffcfa2;
+    background-color: #5a3a54;
+}
+#cover{
+    background-image: url("/images/cover.png");
+    display: flex;
+    align-items: center;
+    height: 434px;
+    background-size: cover;
+}
+.slogan{
+    width: 485px;
+    height: 84px;
+    background-color: rgba(255, 255, 255, 0.2);;
+    text-align: center;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-style: italic;
+}
+#catalog{
+    border-color: white;
+    border: 15px;
+}
+.cards{
+    display:flex;
+    flex-direction: row;
+    margin-top: 38px;
+}
+.card{
+    width: 301px;
+    height: 476px;
+    padding: 20px 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #A3B18A;
+    border-radius: 44px;
+    margin-right: 37px;
+}
+.card_name{
+    text-align: center;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+h3{
+margin: 0px;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.price{
+    margin-bottom: 15px;
+    height: 34px;
+    border: 2px;
+    border-color: black;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+#about_us{
+    display: flex;
+    align-items: center;
+    height: 617px;
+}
+.about_us_content{
+    display: flex;
+    align-items: center;
+}
+.about_us_text{
+    width: 527px;
+    height: 406px;
+    margin-left: 25px;
+    font-size: 24px;
+}
+.delivery_cards{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 868px;
+    margin-top: 38px;
+    justify-content: space-between;
+}
+.delivery_card{
+    width: 301px;
+    height: 340px;
+    padding: 20px 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #A3B18A;
+    border-radius: 44px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 25px;
+}

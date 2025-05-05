@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FootCard</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/Logo.png">
 </head>
 
 <body>
@@ -16,10 +17,10 @@
             <img class="glass" src="images/glass.png">
         </div>
         <nav>
-            <div class="list_item"><a class="list_item_text" href="">Каталог</a></div>
+            <div class="list_item"><a class="list_item_text" href="#catalog">Каталог</a></div>
             <div class="list_item"><a class="list_item_text" href="">Корзина</a></div>
-            <div class="list_item"><a class="list_item_text" href="">Контакты</a></div>
-            <div class="list_item"><a class="list_item_text" href="">Войти</a></div>
+            <div class="list_item"><a class="list_item_text" href="#contacts">Контакты</a></div>
+            <div class="list_item"><a class="list_item_text" href="log_in.html">Войти</a></div>
         </nav>
     </header>
     <main>
@@ -40,7 +41,7 @@
                         <h3>10 пакетиков наклеек <br> FIFA World Cup Qatar 2022 от<br> Panini</h3>
                         <p class="price">150₽</p>
                     </div>
-                        <a href=""><button class="btn">ПЕРЕЙТИ В КАТАЛОГ</button></a>
+                        <a href=""><button class="btn">Подробнее</button></a>
                 </div>
                 <div class="card">
                     <img src="/images/card_france.png" alt="card_item_2">
@@ -48,7 +49,7 @@
                         <h3>10 пакетиков наклеек<br> Panini "UEFA EURO 2016 <br>France"</h3>
                         <p class="price">150₽</p>
                     </div>
-                        <a href=""><button class="btn">ПЕРЕЙТИ В КАТАЛОГ</button></a>
+                        <a href=""><button class="btn">Подробнее</button></a>
                 </div>
                 <div class="card">
                     <img src="/images/card_rpl24-25.png" alt="card_item_3">
@@ -56,7 +57,7 @@
                         <h3>10 пакетиков наклеек<br> Panini МИР РПЛ<br> 2024-2025</h3>
                         <p class="price">150₽</p>
                     </div>
-                        <a href=""><button class="btn">ПЕРЕЙТИ В КАТАЛОГ</button></a>
+                        <a href=""><button class="btn">Подробнее</button></a>
                 </div>
             </div>
         </section>
@@ -65,21 +66,21 @@
                 <img src="images/about_us_image.png" height="500px">
                 <div class="about_us_text">
                     <h2>О нас</h2>
-                    <p class="light text_about_us">Ой, смотрите! Интернет-магазин по футбольным наклейкам?!  Это же просто находка!
-                        Оказывается, есть целая команда фанатов, которые не только любят футбол, но и собирают наклейки! 
-                        И они предлагают нам окунуться в этот мир!
+                    <p class="text_about_us">Ой, смотрите! Интернет-магазин по футбольным наклейкам?!  Это же просто находка!
+                        Оказывается,<br> есть целая команда фанатов, которые не только<br> любят футбол, но и собирают наклейки! 
+                        И они<br> предлагают нам окунуться в этот мир!
                     </p>
-                    <p class="light">У них есть куча пакетиков с наклейками - новые и даже редкие коллекционные серии.
-                          Они обещают, что все наклейки будут качественные и оригинальные. 
+                    <p class="text_about_us">У них есть куча пакетиков с наклейками - новые и<br> даже редкие коллекционные серии.
+                          Они<br> обещают, что все наклейки будут качественные и оригинальные. 
                     </p>
-                    <p class="light">Представляете, можно создать свою собственную уникальную коллекцию! 
-                        И еще делиться историями из мира футбола! Вот это круто!
+                    <p class="text_about_us">Представляете, можно создать свою собственную уникальную коллекцию! 
+                        И еще делиться<br> историями из мира футбола! Вот это круто!
                   </p>
                 </div>
             </div>
         </section>
         <section id="delivery" class="container">
-            <h2>Доставка и оплата</h2>
+            <h2 class="center">Доставка и оплата</h2>
             <div class="center">
             <div class="delivery_cards">
                 <div class="delivery_card">
@@ -113,6 +114,31 @@
             </div>
         </div>
         </section>
+        <section id="contacts">
+            <div class="contacts">
+                <h2>Появились или остались вопросы?</h2>
+                <div class="contact_infa">
+                    <p class="contact_text">Телефон:<br><br> +7 (348) 619-69-73<br></p>
+                    <p class="contact_text">Электронная почта:<br><br>foot_card@email.com<br> </p>
+                    <p class="contact_text">Адрес:<br><br>г. Москва, улица Поликарпова, 23Ак37</p>
+                </div>
+                <button type="submit" class="btn">Подробнее</button>
+            </div>
+        </section>
+        <footer><p class="footer_text">Каталог<br>
+            Корзина<br>
+            Контакты<br>
+            Войти </p>
+            <p class="footer_text">+7 (348) 619-69-73<br><br>
+                foot_card@email.com  </p>
+                <div class="footer_icons">
+                    <img class="footer_icon" src="/images/VK.png" alt="VK">
+                    <img src="/images/TG.png" alt="TG">
+                </div>
+                <div class="footer_text">
+                    <img src="/images/Up.png" alt="Up">
+                </div>
+        </footer>
     </main>
 </body>
 

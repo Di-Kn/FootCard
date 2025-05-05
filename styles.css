@@ -95,6 +95,18 @@ nav{
     color: #ffcfa2;
     background-color: #5a3a54;
 }
+.btn_loc{
+    color: #DAD7CD;
+    width: 266px;
+    height: 51px;
+    border: 0;
+    border-radius: 27px;
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    background-color:rgba(58,90,64, 0.6) ;
+}
 #cover{
     background-image: url("/images/cover.png");
     display: flex;
@@ -121,6 +133,7 @@ nav{
 .cards{
     display:flex;
     flex-direction: row;
+    justify-content: center;
     margin-top: 38px;
 }
 .card{
@@ -158,11 +171,15 @@ margin: 0px;
 #about_us{
     display: flex;
     align-items: center;
+    justify-content: center;
     height: 617px;
+}
+.text_about_us{
+    font-weight: 500;
 }
 .about_us_content{
     display: flex;
-    align-items: center;
+    justify-content: center;
 }
 .about_us_text{
     width: 527px;
@@ -170,6 +187,7 @@ margin: 0px;
     margin-left: 25px;
     font-size: 24px;
 }
+
 .delivery_cards{
     display:flex;
     flex-wrap: wrap;
@@ -190,4 +208,40 @@ margin: 0px;
     justify-content: center;
     text-align: center;
     margin-bottom: 25px;
+}
+#contacts{
+    height: 534px;
+    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url(/images/contacts.png);
+    display: flex;
+    align-items: center;
+    background-size: cover;
+}
+.contacts{
+    margin: 30px 59px;
+}
+.contact_text{
+    margin-top: 23px;
+    margin-bottom: 23px;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 186px;
+    padding: 20px;
+    background-color: #588157;
+}
+.footer_text{
+    margin-left: 15px;
+    text-align: center;
+    font-size: 24px;
+}
+.footer_icon{
+    margin-right: 43px ;
+}
+.footer_icons{
+    width: 183px;
+    display: flex;
+    flex-direction: row;
 }

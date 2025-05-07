@@ -16,7 +16,7 @@ header{
     background-color: #588157;
     padding: 5px 36px;
 }
-a,p,h1,h2,h3{
+*{
     font-family: "Alegreya Sans SC", sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -74,6 +74,12 @@ h1{
 color: #DAD7CD;
 text-decoration: none;
 }
+.list_item:hover{
+    background-color: #5a3a54;
+}
+.list_item_text:hover{
+    color: #ffcfa2;
+}
 nav{
     display: flex;
     align-items: center;
@@ -101,11 +107,17 @@ nav{
     height: 51px;
     border: 0;
     border-radius: 27px;
+    margin-right: 10px;
+    margin-left: 10px;
     font-family: "Alegreya Sans SC", sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 20px;
     background-color:rgba(58,90,64, 0.6) ;
+}
+.btn_loc:hover{
+    color: #ffcfa2;
+    background-color:rgba(90,58,84, 0.6) ;
 }
 #cover{
     background-image: url("/images/cover.png");
@@ -127,8 +139,11 @@ nav{
     font-style: italic;
 }
 #catalog{
-    border-color: white;
-    border: 15px;
+    height: 679px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    border: 15px solid white;
 }
 .cards{
     display:flex;
@@ -148,6 +163,9 @@ nav{
     margin-right: 37px;
 }
 .card_name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
     margin-bottom: 8px;
     margin-top: 8px;
@@ -161,14 +179,20 @@ margin: 0px;
     align-items: center;
 }
 .price{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-bottom: 15px;
     height: 34px;
-    border: 2px;
-    border-color: black;
+    width: 116px;
+    border: 2px solid black;
+    border-radius: 60px;
     margin-bottom: 8px;
     margin-top: 8px;
 }
 #about_us{
+    margin-top: 50px;
+    border: 15px solid white;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -176,18 +200,27 @@ margin: 0px;
 }
 .text_about_us{
     font-weight: 500;
+    font-size: 24px;
 }
 .about_us_content{
     display: flex;
+    height: 557px;
     justify-content: center;
+}
+.about_us_image{
+    height: 500px;
+    width: 397px;
+    margin-top: 35px;
 }
 .about_us_text{
     width: 527px;
     height: 406px;
     margin-left: 25px;
-    font-size: 24px;
 }
-
+#delivery{
+    margin-top: 50px;
+    border: 15px solid white;
+}
 .delivery_cards{
     display:flex;
     flex-wrap: wrap;
@@ -211,6 +244,7 @@ margin: 0px;
 }
 #contacts{
     height: 534px;
+    margin-top: 50px;
     background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url(/images/contacts.png);
     display: flex;
     align-items: center;
@@ -228,6 +262,7 @@ footer{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin-top: 50px;
     height: 186px;
     padding: 20px;
     background-color: #588157;
@@ -237,6 +272,11 @@ footer{
     text-align: center;
     font-size: 24px;
 }
+.footer_links{
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+}
 .footer_icon{
     margin-right: 43px ;
 }
@@ -244,4 +284,55 @@ footer{
     width: 183px;
     display: flex;
     flex-direction: row;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 41px;
+}
+input{
+    padding-left: 20px;
+    width: 497px;
+    height: 39px;
+    background-color: #344E41;
+    color: #DAD7CD;
+    border: 0;
+    border-radius: 15px;
+    margin-top: 32px;
+}
+::placeholder{
+    color: #DAD7CD;
+}
+.checkbox_stroke{
+    display: flex;
+    align-items: center;
+}
+.checkbox{
+    width: 43px;
+    height: 43px;
+    margin: 5px;
+}
+.choice{
+    display: flex;
+    justify-content: center;
+    margin-top: 41px;
+}
+.choice_page{
+width: 249px;
+margin-top: 39px;
+display: flex;
+justify-content: space-between;
+}
+select{
+    color: #DAD7CD;
+    background-color: #344E41;
+    width: 304px;
+    height: 71px;
+    border-radius: 15px;
+    font-size: 24px;
+    padding-left: 5px;
+    margin-top: 39px;
+    margin-right: 22px;
+    appearance: none;
 }
